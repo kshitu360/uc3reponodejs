@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    dockerimagename = "mayankgg2511/batch800uc3nodejscode:v1"
+    dockerimagename = "kshitija07/devproject3:v1"
     dockerImage = ""
   }
 
@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git ' https://github.com/mayankgg2511/uc3reponodejs.git'
+        git ' https://github.com/kshitu360/uc3reponodejs.git'
       }
     }
 
